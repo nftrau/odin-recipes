@@ -23,3 +23,9 @@ Included in various elements:
 - Should try it on the different recipe links!
 
 
+----- ON 28 NOV 3:55PM -----
+- Beautify the recipe page with The Box Model
+- Realised that less is more
+- More content = more styles = more labelling = harder to read
+- Try to align all the websites of different receipes so that one style can be applied to all three recipe websites
+- Completed this on 5th December 2023 due to heavy workload LOL.

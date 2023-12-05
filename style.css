@@ -1,15 +1,39 @@
 /* styles */
 
+.overview {
+    background-color: bisque;
+}
+
 h1 {
     background-color: rgb(239, 222, 205);
     color: black;
     text-align: center;
+    margin: 25px 40px;
+    padding: 20px;
+    border: 5px groove #3B7A57;
 }
 
-div {
+p {
     color: blue;
     font: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.chef {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+}
+
+span {
+    border: 5px dotted rgb(226, 92, 43);
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    color: darkblue;
 }
 
 h2 {
@@ -17,35 +41,59 @@ h2 {
     color: aliceblue;
     font-weight: lighter;
     font-family: Monaco, Monospace;
+    padding: 1em;
+    border: 3px double white;
+    margin: 30px 30px;
     text-align: center;
 }
 
-.button {
-    background-color: beige;
-    color: brown;
-    font-size: 16px;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-.pics {
-    height: 300px;
-    width: 400px;
-}
-
-#magherita {
+.food-description {
     color: darkred;
     text-align: justify;
     font-family: Palatino, serif;
+    padding-bottom: 10px;
+    margin: 30px 30px 10px 30px;
+    text-align: center;
 }
 
-#pasta {
-    color: darkgreen;
-    text-align: justify;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ul {
+    display: flex;
+    list-style-type: none;
+    font-family: Pacifico;
+    text-align: center;
+    padding-left: 0px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
 }
 
-#spaghetti {
-    color: blue;
-    text-align: justify;
-    font-family: Tahoma, sans-serif;
+ul a {
+    background-color: black;
+    color: azure;
+    padding: 5px 20px;
+    border: 7px inset grey;
+    box-sizing: border-box;
 }
+
+.green:hover {
+    background-color: green;
+    color: azure;
+}
+
+.white:hover {
+    background-color: white;
+    color: black;
+}
+
+.red:hover {
+    background-color: red;
+    color: azure;
+}
+
+li {
+    margin: 20px 0;
+    padding: 10px;
+}
+

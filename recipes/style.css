@@ -1,34 +1,91 @@
 /* styles */
 
+.background {
+    background-color: #EBF3E8;
+}
+
 #main-title {
-    background-color: burlywood;
+    background-color: #86A789;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 5px ridge;
 }
 
-#final-title {
-    background-color: rgb(11, 60, 184);
-    color: antiquewhite;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.main-img {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.title {
-    background-color: beige;
+.first-title {
+    background-color: #b8e0d2;
     color: #3B7A57;
     text-align: left;
     font-family: Trebuchet MS, sans-serif;
-}
-
-.subtitle {
-    background-color: #B284BE;
-    color: beige;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 1em;
+    border: 3px double white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
+.first-content {
+    padding: 20px;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+#mammamia {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    color: darkolivegreen;
+}
+
+.subtitle {
+    background-color: #fff1e6;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+    border: 5px groove rgb(172, 36, 36);
+}
+
 .mini-title {
-    background-color: #FFF06E;
+    background-color: #D2E3C8;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 50px 1350px 10px 10px;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+.steps {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#final-title {
+    color: #001524;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-style: oblique 80deg;
+}
+
+.final-food {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
